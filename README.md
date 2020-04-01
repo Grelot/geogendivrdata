@@ -15,3 +15,13 @@ Then you can finally install `geogendivrdata`
 ```
 devtools::install_github("Grelot/geogendivrdata")
 ```
+
+# Usage
+
+```
+library(geogendivrdata)
+
+## Dataframe of RLS points with mean nucleotide diversity calculated from BOLD sequences 
+nucDivRlsPts
+
+```
