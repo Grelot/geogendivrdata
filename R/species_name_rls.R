@@ -13,6 +13,7 @@
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
-hello <- function() {
-  print("Hello, world!")
+species_name_rls <- function(surveyXspecies) {
+  speciesSurvey <- as.character(unique(sort(surveyXspecies$TAXONOMIC_NAME)))
+  return(speciesSurvey)
 }
